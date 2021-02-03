@@ -1,0 +1,42 @@
+/*Стили для очень маленьких экранов( Дисплэй максимум 575px )*/
+@media(max-width:575px){
+    .menu{
+        position: static;
+    }
+    
+    .menu a{
+        width: 100%;
+        padding: 30px 0px;
+        border-bottom: gray 1px solid;
+    }
+    
+    .header{
+        padding: 70px 0px;
+        margin: 0px;
+        width: 360px;
+    }
+    
+    #projects img{
+        display: block;
+        width: 340px;
+    }
+    
+    #projects{
+        width: 360px;
+    }
+    
+    .staff{
+        display: block;
+        width: 290px;
+    }
+    
+    .tariff{
+        display: block;
+        width: 340px;
+    }
+    
+    #contacts input,textarea{
+        height: 40px;
+    }
+    
+}
